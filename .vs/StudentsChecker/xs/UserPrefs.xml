@@ -1,0 +1,53 @@
+﻿<Properties StartupConfiguration="{2E282E12-0EFB-41DE-ADC0-59D089036938}|Default">
+  <MonoDevelop.Ide.ItemProperties.StudentsChecker PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="StudentsChecker/Program.cs">
+    <Files>
+      <File FileName="StudentsChecker/wwwroot/css/site.css" Line="40" Column="26" IsPinned="True" />
+      <File FileName="StudentsChecker/Views/Home/Index.cshtml" Line="28" Column="61" />
+      <File FileName="StudentsChecker/Repositories/StudentsRepository.cs" Line="68" Column="112" />
+      <File FileName="StudentsChecker/AppContext.cs" Line="24" Column="47" />
+      <File FileName="StudentsChecker/Program.cs" Line="6" Column="38" />
+      <File FileName="StudentsChecker/Models/Student.cs" Line="15" Column="23" />
+      <File FileName="StudentsChecker/Views/Shared/_Layout.cshtml" Line="5" Column="77" />
+      <File FileName="StudentsChecker/Views/Home/Statement.cshtml" Line="13" Column="51" />
+      <File FileName="StudentsChecker/Models/SubjectStudent.cs" Line="17" Column="22" />
+      <File FileName="StudentsChecker/Models/Subject.cs" Line="12" Column="34" />
+      <File FileName="StudentsChecker/Repositories/SubjectRepository.cs" Line="38" Column="1" />
+      <File FileName="StudentsChecker/Repositories/UserRepository.cs" Line="1" Column="1" />
+      <File FileName="StudentsChecker/Controllers/HomeController.cs" Line="27" Column="13" />
+      <File FileName="StudentsChecker/Views/Home/AddStatement.cshtml" Line="83" Column="33" />
+      <File FileName="StudentsChecker/Models/Group.cs" Line="13" Column="1" />
+      <File FileName="StudentsChecker/Models/Teacher.cs" Line="8" Column="16" />
+      <File FileName="StudentsChecker/Views/Auth/Index.cshtml" Line="1" Column="1" />
+      <File FileName="StudentsChecker/Controllers/AuthController.cs" Line="39" Column="32" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StudentsChecker" expanded="True">
+            <Node name="StudentsChecker" expanded="True" selected="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Auth" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

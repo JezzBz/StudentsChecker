@@ -1,0 +1,118 @@
+﻿@{
+    ViewData["Title"] = "Добавление ведомости";
+   
+}
+@model List<StudentsControl.Models.SubjectStudent>
+<div>
+    <h3>
+        Группа:
+    </h3>
+    <h4>
+        @ViewBag.Group
+    </h4>
+    <h3>
+        Учебный план:
+    </h3>
+   
+
+    <div>
+
+        @using (Html.BeginForm("Recalculation", "Home", FormMethod.Post))
+        {
+
+            <select class="Subject" name="SubjectId">
+                @foreach (var item in ViewBag.Subjects)
+                {
+                    <option value="@item.Id" )>
+                        @item.Name @item.Time ч.
+                    </option>
+
+                }
+            </select>
+            <h3>
+                Преподаватель:
+            </h3>
+            <select class="Teacher" name="TeacherId">
+
+                @foreach (var item in ViewBag.Teachers)
+                {
+                    @item
+                    <option value="@item.Id">
+                        @item.Fcs
+                    </option>
+
+                }
+
+
+
+
+            </select>
+
+            <table class="table">
+
+
+                <thead>
+                    <tr>
+                        <th>ФИО</th>
+
+                        <th>Посещаемость</th>
+                        <th>Оценка</th>
+                        <th>Допуск к экзамену</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @for (var i = 0; i < ViewBag.Count; i++)
+                    {
+
+
+
+
+
+
+
+                        <tr>
+
+
+
+
+                            <td>@ViewBag.Students[i].Fcs</td>
+
+                            <td>
+                                
+                                <input type="hidden" name="[@i].Student.Id" value="@ViewBag.Students[i].Id" />
+                                @Html.TextBoxFor(model => model[i].VisitTime)
+
+                            </td>
+                            <td>@Html.TextBoxFor(model => model[i].Mark)</td>
+                            @{ if (ViewBag.Students[i].Admitted)
+                                {
+                                    <td style="color:green;">
+                                        Допущен
+                                    </td>
+                                }
+                                else
+                                {
+                                    <td style="color:red;">
+                                        Не допущен
+                                    </td>
+                                }
+                            }
+
+
+                        </tr>
+
+                    }
+
+                </tbody>
+            </table>
+
+
+            <input type="submit" />
+        }
+
+    </div>
+    
+   
+</div>

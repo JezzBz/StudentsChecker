@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Главная";
+}
+
+<h2 class="text-center">
+   Студенты 
+</h2>
+<div>
+    <table class="table">
+
+        
+            <thead>
+                <tr>
+                    <th>ФИО</th>
+                    <th>Группа</th>
+                    <th>Посещаемость</th>
+                    <th>Статус</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var student in ViewBag.Students)
+                {
+                    <tr>
+                        <th>@student.Fcs</th>
+                        <th>@student.Group.Name</th>
+                        <th @(student.Attendance<=50?"style=color:red":"style=color:black")>@student.Attendance%</th>
+                        <th>@student.IsStuding</th>
+                    </tr>
+                }
+            </tbody>
+    </table>
+
+</div>
+

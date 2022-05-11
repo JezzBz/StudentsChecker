@@ -1,0 +1,51 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+header nav {
+    background-color: #00bfff;
+    
+}
+body {
+  margin-bottom: 60px;
+  
+}
+
+.AuthContainer {
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+}
+.AuthRow {
+width:50%;
+margin-top:15px;
+}
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+}
+
+    .table th {
+        font-weight: bold;
+        padding: 5px;
+        background: white;
+        border: 1px solid #dddddd;
+    }
+
+    .table td {
+        border: 1px solid #dddddd;
+        padding: 5px;
+    }

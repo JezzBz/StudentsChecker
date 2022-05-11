@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Ведомости";
+}
+<div>
+    Выберите группу
+    <form asp-controller="Home" asp-action="AddStatement" >
+        <select name="Group">
+            @foreach (var item in ViewBag.Groups)
+            {
+                <option>@item.Name</option>
+            }
+        </select>
+        <input type="submit" placeholder="Добавить"/>
+    </form>
+</div>
