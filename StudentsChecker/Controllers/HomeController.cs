@@ -18,20 +18,22 @@ using Microsoft.AspNetCore.Mvc;
             subjectRepository = new(context);
         }
     
-        //[Authorize]
+        [Authorize]
         public IActionResult Index()
         {
-            //studentsRepository.CreateTestUsers();
+            studentsRepository.CreateTestUsers();
             ViewBag.Students = studentsRepository.GetAll();
+           
             return View();
-        }   
-        //[Authorize]
+        }
+        [Authorize]
+    
         public IActionResult Statement()
         {
             ViewBag.Groups = studentsRepository.GetGroups();
             return View();
         }
-        //[Authorize]
+        [Authorize]
         public IActionResult AddStatement(string Group)
         {
         
@@ -55,7 +57,7 @@ using Microsoft.AspNetCore.Mvc;
 
             return View();
         }
-        //[Authorize]
+        [Authorize]
         public IActionResult Recalculation([FromForm]IEnumerable<SubjectStudent> subjectStudents,int SubjectId,int TeacherId)
         {
             Subject subject = subjectRepository.FindById(SubjectId);

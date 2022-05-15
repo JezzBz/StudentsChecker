@@ -31,20 +31,21 @@ namespace StudentsChecker.Repositories
 
         internal void CreateTestUsers()
         {
-            for (int i = 0; i < 10; i++)
-            {
-                if (i%2>0)
-                {
-                    Context.Students.Add(new Student { Attendance = 100, IsStuding = "Обучается", Group=Context.Groups.FirstOrDefault() , Fcs = $"Тестер Тестович Тестинский{i}" });
-                }
-                else
-                {
-                    Context.Students.Add(new Student { Attendance = 35, IsStuding = "Представлен к отчислению", Group = Context.Groups.FirstOrDefault(), Fcs = $"Тестер Тестович Тестинский{i}" });
-                
-                }
-                
-                Context.SaveChanges();
-            }
+                    
+                    Context.Students.Add(new Student { Attendance = 100, IsStuding = "Обучается", Group=Context.Groups.FirstOrDefault() , Fcs = "!!!ФИО СТУДЕНТА!!!" });
+                    Context.Students.Add(new Student { Attendance = 100, IsStuding = "Обучается", Group=Context.Groups.FirstOrDefault() , Fcs = "!!!ФИО СТУДЕНТА!!!" });
+                    Context.Students.Add(new Student { Attendance = 100, IsStuding = "Обучается", Group=Context.Groups.FirstOrDefault() , Fcs = "!!!ФИО СТУДЕНТА!!!" });
+                    Context.Students.Add(new Student { Attendance = 100, IsStuding = "Обучается", Group=Context.Groups.FirstOrDefault() , Fcs = "!!!ФИО СТУДЕНТА!!!" });
+                    Context.Students.Add(new Student { Attendance = 100, IsStuding = "Обучается", Group=Context.Groups.FirstOrDefault() , Fcs = "!!!ФИО СТУДЕНТА!!!" });
+                    Context.Students.Add(new Student { Attendance = 100, IsStuding = "Обучается", Group=Context.Groups.FirstOrDefault() , Fcs = "!!!ФИО СТУДЕНТА!!!" });
+                    Context.Students.Add(new Student { Attendance = 100, IsStuding = "Обучается", Group=Context.Groups.FirstOrDefault() , Fcs = "!!!ФИО СТУДЕНТА!!!" });
+                    Context.Students.Add(new Student { Attendance = 100, IsStuding = "Обучается", Group=Context.Groups.FirstOrDefault() , Fcs = "!!!ФИО СТУДЕНТА!!!" });
+                    Context.Students.Add(new Student { Attendance = 100, IsStuding = "Обучается", Group=Context.Groups.FirstOrDefault() , Fcs = "!!!ФИО СТУДЕНТА!!!" });
+                    Context.Students.Add(new Student { Attendance = 100, IsStuding = "Обучается", Group=Context.Groups.FirstOrDefault() , Fcs = "!!!ФИО СТУДЕНТА!!!" });
+
+
+            Context.SaveChanges();
+            
         }
 
         internal void SaveChanges()

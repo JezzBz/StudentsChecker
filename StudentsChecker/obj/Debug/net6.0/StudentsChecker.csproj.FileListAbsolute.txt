@@ -60,3 +60,11 @@
 /Users/bogdan/Projects/StudentsChecker/StudentsChecker/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
 /Users/bogdan/Projects/StudentsChecker/StudentsChecker/bin/Debug/net6.0/Newtonsoft.Json.dll
 /Users/bogdan/Projects/StudentsChecker/StudentsChecker/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/bogdan/Projects/StudentsChecker/StudentsChecker/bin/Debug/net6.0/Microsoft.AspNet.Identity.Core.dll
+/Users/bogdan/Projects/StudentsChecker/StudentsChecker/bin/Debug/net6.0/Microsoft.AspNet.Identity.Owin.dll
+/Users/bogdan/Projects/StudentsChecker/StudentsChecker/bin/Debug/net6.0/Microsoft.Owin.dll
+/Users/bogdan/Projects/StudentsChecker/StudentsChecker/bin/Debug/net6.0/Microsoft.Owin.Security.dll
+/Users/bogdan/Projects/StudentsChecker/StudentsChecker/bin/Debug/net6.0/Microsoft.Owin.Security.Cookies.dll
+/Users/bogdan/Projects/StudentsChecker/StudentsChecker/bin/Debug/net6.0/Microsoft.Owin.Security.OAuth.dll
+/Users/bogdan/Projects/StudentsChecker/StudentsChecker/bin/Debug/net6.0/Owin.dll
+/Users/bogdan/Projects/StudentsChecker/StudentsChecker/bin/Debug/net6.0/System.Security.Permissions.dll

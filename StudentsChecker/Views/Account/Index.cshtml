@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Авторизация";
+}
+
+<div class="AuthContainer">
+    <form asp-controller="Account" asp-action="Login">
+        <div class="text-center">
+            Логин
+        </div>
+        <input name="password" class="AuthRow" width="400" type="text" />
+        <div class="text-center">
+            Пароль
+        </div>
+        <div class="text-center">
+            <input name="login" class="AuthRow" width="400" type="password" />
+        </div>
+        <div class="text-center">
+            <button class="AuthRow" type="submit">Войти</button>
+        </div>
+
+    </form>
+</div>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yrx4b6h4vY7xWFhv9zK8GfwwjZA4SLj9NqJMTp+ePbI=",
+  "Hash": "lRCyMzP5i7LVMlXWxS34zU4U8zDAGBDUGDoxgf8lAco=",
   "Source": "StudentsChecker",
   "BasePath": "_content/StudentsChecker",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/bogdan/Projects/StudentsChecker/StudentsChecker/obj/Debug/net6.0/scopedcss/projectbundle/StudentsChecker.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/bogdan/Projects/StudentsChecker/StudentsChecker/wwwroot/.DS_Store",
+      "SourceId": "StudentsChecker",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/bogdan/Projects/StudentsChecker/StudentsChecker/wwwroot/",
+      "BasePath": "_content/StudentsChecker",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
       "Identity": "/Users/bogdan/Projects/StudentsChecker/StudentsChecker/wwwroot/css/site.css",

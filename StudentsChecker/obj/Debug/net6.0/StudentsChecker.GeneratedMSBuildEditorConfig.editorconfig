@@ -15,8 +15,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/bogdan/Projects/StudentsChecker/StudentsChecker
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/bogdan/Projects/StudentsChecker/StudentsChecker/Views/Auth/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9JbmRleC5jc2h0bWw=
+[/Users/bogdan/Projects/StudentsChecker/StudentsChecker/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/bogdan/Projects/StudentsChecker/StudentsChecker/Views/Home/AddStatement.cshtml]
